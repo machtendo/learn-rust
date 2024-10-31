@@ -1,0 +1,50 @@
+The Rust Programming Language, 2021 Edition
+Chapter 1
+
+#################################################################################
+# Installation
+#################################################################################
+
+Install rustup on linux or macos:
+curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
+
+(Linux Only) Install C Compiler:
+Depending on Distro, gcc or clang, ubuntu users can install build-essential
+
+
+(macOS Only) Install C Compiler:
+xcode-select --install
+
+#################################################################################
+# Troubleshooting
+#################################################################################
+
+Check version:
+rustc --version
+
+Update Rust:
+rustup update
+
+Uninstall:
+rustup self uninstall
+
+View Documentation:
+rustup doc
+
+#################################################################################
+# Writing & Running a Rust Program
+#################################################################################
+
+- Rust files always in with .rs extension
+- Naming convention is to use an underscore if filename contains multiple words (i.e. 'hello_world.rs')
+
+Compile:
+rustc [filename].rs
+
+- See ch1/hello_world for Project File
+
+#################################################################################
+# Anatomy of a Rust Program
+#################################################################################
+
+
